@@ -21,7 +21,7 @@ jobs:
 
       - name: Run deno
         run: |
-          git config --local user.email "97206415@qq.com"
+          git config --local user.email "renyuzhuo@foxmail.com"
           git config --local user.name "RenYuZhuo"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase

@@ -61,6 +61,8 @@
 
 ### License
 
+- [MIT](https://renyuzhuo.cn/MIT)
+
 ### References
 
 - [weibo-trending-hot-search](https://github.com/justjavac/weibo-trending-hot-search)
