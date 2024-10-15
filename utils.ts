@@ -5,14 +5,15 @@ export function mergeWords(
   words: Word[],
   another: Word[],
 ): Word[] {
-  const obj: Record<string, string> = {};
-  for (const w of words.concat(another)) {
-    obj[w.url] = w.title;
-  }
-  return Object.entries(obj).map(([url, title]) => ({
-    url,
-    title,
-  }));
+  const temp = [...words, ...another];
+  return temp.reduce((acc: Word[], current: Word) => {
+    const x = acc.find(item => item.title === current.title);
+    if (!x) {
+      return acc.concat([current]);
+    } else {
+      return acc;
+    }
+  }, []);
 }
 
 export async function createReadme(words: Word[]): Promise<string> {
