@@ -7,7 +7,7 @@ export function mergeWords(
 ): Word[] {
   const temp = [...words, ...another];
   return temp.reduce((acc: Word[], current: Word) => {
-    const x = acc.find(item => item.title === current.title);
+    const x = acc.find((item) => item.title === current.title);
     if (!x) {
       return acc.concat([current]);
     } else {
