@@ -5,7 +5,7 @@ import { join } from "std/path/mod.ts";
 import { exists } from "std/fs/mod.ts";
 
 import type { Word } from "./types.ts";
-import { createArchive, createReadme, mergeWords } from "./utils.ts";
+import { createArchive, createReadme, mergeWords, updateArchiveIndex } from "./utils.ts";
 
 const regexp = /<a href="(\/weibo\?q=[^"]+)".*?>(.+)<\/a>/g;
 
@@ -51,3 +51,7 @@ await Deno.writeTextFile("./README.md", readme);
 const archiveText = createArchive(queswordsAll, yyyyMMdd);
 const archivePath = join("archives", `${yyyyMMdd}.md`);
 await Deno.writeTextFile(archivePath, archiveText);
+
+const archiveIndexText = updateArchiveIndex();
+const archiveIndexPth = join("archives", "index.md");
+await Deno.writeTextFile(archiveIndexPth, archiveIndexText);
