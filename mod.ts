@@ -5,7 +5,12 @@ import { join } from "std/path/mod.ts";
 import { exists } from "std/fs/mod.ts";
 
 import type { Word } from "./types.ts";
-import { createArchive, createReadme, mergeWords, updateArchiveIndex } from "./utils.ts";
+import {
+  createArchive,
+  createReadme,
+  mergeWords,
+  updateArchiveIndex,
+} from "./utils.ts";
 
 const regexp = /<a href="(\/weibo\?q=[^"]+)".*?>(.+)<\/a>/g;
 

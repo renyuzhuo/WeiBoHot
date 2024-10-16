@@ -40,37 +40,39 @@ ${createList(words)}
 
 function formatDate(date) {
   var d = new Date(date),
-      month = '' + (d.getMonth() + 1),
-      day = '' + d.getDate(),
-      year = d.getFullYear();
+    month = "" + (d.getMonth() + 1),
+    day = "" + d.getDate(),
+    year = d.getFullYear();
 
-  if (month.length < 2) 
-      month = '0' + month;
-  if (day.length < 2) 
-      day = '0' + day;
+  if (month.length < 2) {
+    month = "0" + month;
+  }
+  if (day.length < 2) {
+    day = "0" + day;
+  }
 
-  return [year, month, day].join('-');
+  return [year, month, day].join("-");
 }
 
 export function createArchiveIndex(): string {
-  let dateStr = '';
+  let dateStr = "";
   let currentDate = new Date();
-  
-  while (currentDate >= new Date('2024-10-14')) {
+
+  while (currentDate >= new Date("2024-10-14")) {
     let formattedDate = formatDate(currentDate);
     dateStr += `1. [${formattedDate}](./${formattedDate})\n`;
     currentDate.setDate(currentDate.getDate() - 1);
   }
 
   return `<!-- BEGIN -->
-  ${
-    dateStr
-  }
+  ${dateStr}
 <!-- END -->`;
-
 }
 
 export async function updateArchiveIndex(): Promise<string> {
   const readme = await Deno.readTextFile("./archives/index.md");
-  return readme.replace(/<!-- BEGIN -->[\W\w]*<!-- END -->/, createArchiveIndex());
+  return readme.replace(
+    /<!-- BEGIN -->[\W\w]*<!-- END -->/,
+    createArchiveIndex(),
+  );
 }
