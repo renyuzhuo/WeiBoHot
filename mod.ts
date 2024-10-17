@@ -33,7 +33,10 @@ const matches = result.matchAll(regexp);
 const words: Word[] = Array.from(matches).map((x) => ({
   url: x[1],
   title: x[2],
-})).filter(word => !word.url.includes('%E4%B9%A0%E8%BF%91%E5%B9%B3') && !word.url.includes('%E6%80%BB%E4%B9%A6%E8%AE%B0'));
+})).filter((word) =>
+  !word.url.includes("%E4%B9%A0%E8%BF%91%E5%B9%B3") &&
+  !word.url.includes("%E6%80%BB%E4%B9%A6%E8%AE%B0")
+);
 
 const yyyyMMdd = format(new Date(), "yyyy-MM-dd");
 const fullPath = join("raw", `${yyyyMMdd}.json`);
