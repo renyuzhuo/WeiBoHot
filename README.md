@@ -1,7 +1,7 @@
 ## 微博今日热门搜索
 
 <!-- BEGIN -->
-<!-- 最后更新时间 Sun Mar 02 2025 22:01:47 GMT+0800 (China Standard Time) -->
+<!-- 最后更新时间 Sun Mar 02 2025 23:01:50 GMT+0800 (China Standard Time) -->
 
 1. [徐若晗好漂亮](https://s.weibo.com//weibo?q=%E5%BE%90%E8%8B%A5%E6%99%97%E5%A5%BD%E6%BC%82%E4%BA%AE&t=31&band_rank=1&Refer=top)
 1. [高铁晚点](https://s.weibo.com//weibo?q=%E9%AB%98%E9%93%81%E6%99%9A%E7%82%B9&t=31&band_rank=2&Refer=top)
