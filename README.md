@@ -1,7 +1,7 @@
 ## 微博今日热门搜索
 
 <!-- BEGIN -->
-<!-- 最后更新时间 Thu May 22 2025 04:02:24 GMT+0800 (China Standard Time) -->
+<!-- 最后更新时间 Thu May 22 2025 05:02:24 GMT+0800 (China Standard Time) -->
 
 1. [辛柏青2秒停顿藏着催泪暴击](https://s.weibo.com//weibo?q=%23%E8%BE%9B%E6%9F%8F%E9%9D%922%E7%A7%92%E5%81%9C%E9%A1%BF%E8%97%8F%E7%9D%80%E5%82%AC%E6%B3%AA%E6%9A%B4%E5%87%BB%23&t=31&band_rank=1&Refer=top)
 1. [袁爷爷吴爷爷离开4年了](https://s.weibo.com//weibo?q=%23%E8%A2%81%E7%88%B7%E7%88%B7%E5%90%B4%E7%88%B7%E7%88%B7%E7%A6%BB%E5%BC%804%E5%B9%B4%E4%BA%86%23&t=31&band_rank=2&Refer=top)
