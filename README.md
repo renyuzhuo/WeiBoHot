@@ -1,7 +1,7 @@
 ## 微博今日热门搜索
 
 <!-- BEGIN -->
-<!-- 最后更新时间 Tue Nov 04 2025 09:30:18 GMT+0800 (China Standard Time) -->
+<!-- 最后更新时间 Tue Nov 04 2025 10:30:58 GMT+0800 (China Standard Time) -->
 
 1. [习主席韩国之行](https://s.weibo.com//weibo?q=%23%E4%B9%A0%E4%B8%BB%E5%B8%AD%E9%9F%A9%E5%9B%BD%E4%B9%8B%E8%A1%8C%23&Refer=new_time)
 1. [央视揭网购故意发错货骗局](https://s.weibo.com//weibo?q=%23%E5%A4%AE%E8%A7%86%E6%8F%AD%E7%BD%91%E8%B4%AD%E6%95%85%E6%84%8F%E5%8F%91%E9%94%99%E8%B4%A7%E9%AA%97%E5%B1%80%23&t=31&band_rank=1&Refer=top)
