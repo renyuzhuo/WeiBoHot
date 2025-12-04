@@ -1,7 +1,7 @@
 ## 微博今日热门搜索
 
 <!-- BEGIN -->
-<!-- 最后更新时间 Thu Dec 04 2025 18:02:43 GMT+0800 (China Standard Time) -->
+<!-- 最后更新时间 Thu Dec 04 2025 19:02:43 GMT+0800 (China Standard Time) -->
 
 1. [新疆地震](https://s.weibo.com//weibo?q=%E6%96%B0%E7%96%86%E5%9C%B0%E9%9C%87&t=31&band_rank=1&Refer=top)
 1. [豆包手机](https://s.weibo.com//weibo?q=%E8%B1%86%E5%8C%85%E6%89%8B%E6%9C%BA&t=31&band_rank=2&Refer=top)
