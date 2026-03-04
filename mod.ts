@@ -61,6 +61,10 @@ const archiveText = createArchive(queswordsAll, yyyyMMdd);
 const archivePath = join("archives", `${yyyyMMdd}.md`);
 await Deno.writeTextFile(archivePath, archiveText);
 
+// 更新 index.md
 const archiveIndexText = await updateArchiveIndex();
 const archiveIndexPth = join("archives", "index.md");
 await Deno.writeTextFile(archiveIndexPth, archiveIndexText);
+
+// 复制更新 hot.md
+await Deno.copyFile("README.md", "hot.md");
