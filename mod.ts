@@ -67,4 +67,4 @@ const archiveIndexPth = join("archives", "index.md");
 await Deno.writeTextFile(archiveIndexPth, archiveIndexText);
 
 // 复制更新 hot.md
-// await Deno.copyFile("README.md", "hot.md");
+await Deno.copyFile("README.md", "hot.md");
