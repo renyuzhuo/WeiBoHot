@@ -1,7 +1,7 @@
 ## 今日热门关键词
 
 <!-- BEGIN -->
-<!-- 最后更新时间 Sat May 02 2026 13:00:25 GMT+0800 (China Standard Time) -->
+<!-- 最后更新时间 Sat May 02 2026 13:52:45 GMT+0800 (China Standard Time) -->
 
 1. [胖东来正式起诉博主惊梦人](https://s.weibo.com//weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%E6%AD%A3%E5%BC%8F%E8%B5%B7%E8%AF%89%E5%8D%9A%E4%B8%BB%E6%83%8A%E6%A2%A6%E4%BA%BA%23&t=31&band_rank=1&Refer=top)
 1. [湖人淘汰火箭](https://s.weibo.com//weibo?q=%E6%B9%96%E4%BA%BA%E6%B7%98%E6%B1%B0%E7%81%AB%E7%AE%AD&t=31&band_rank=2&Refer=top)
