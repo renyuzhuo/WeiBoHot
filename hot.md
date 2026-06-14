@@ -1,7 +1,7 @@
 ## 今日热门关键词
 
 <!-- BEGIN -->
-<!-- 最后更新时间 Mon Jun 15 2026 06:24:09 GMT+0800 (China Standard Time) -->
+<!-- 最后更新时间 Mon Jun 15 2026 07:26:37 GMT+0800 (China Standard Time) -->
 
 1. [大国外交里的文化遗产](https://s.weibo.com//weibo?q=%23%E5%A4%A7%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%87%8C%E7%9A%84%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7%23&Refer=new_time)
 1. [荷兰2比2日本](https://s.weibo.com//weibo?q=%E8%8D%B7%E5%85%B02%E6%AF%942%E6%97%A5%E6%9C%AC&t=31&band_rank=1&Refer=top)
